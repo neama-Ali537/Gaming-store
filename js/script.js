@@ -6,7 +6,7 @@ let productRate = document.getElementById("productopinio");
 let tableBody = document.getElementById("tablebody");
 let addCardBtn = document.getElementById("addcard");
 let searchInput = document.getElementById("searchinput");
-let updatBtn = document.getElementById('updatebtn')
+let updatBtn = document.getElementById("updatebtn");
 let productContainer = [];
 
 // localStorage
@@ -71,7 +71,7 @@ function displayProducts() {
           </tr>
         </tbody>`;
   }
- 
+
   tableBody.innerHTML = cartona;
 }
 
